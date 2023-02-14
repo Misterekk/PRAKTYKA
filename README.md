@@ -17,8 +17,3 @@ Program, który przejrzy kod HTML i wyciągnie potrzebne informacje.
  3. Otwórz folder z plikami
 
     Aby uruchomić program, należy włączyć rozszerzenie Live Server, odpalić konsolę w edytorze tekstu (np. Visual Studio Code) i wpisać komendę **python python.py**, po wpisaniu komendy, wybieramy plik **książki.html**
-    
-## Autor
-
-- Dawid Grygorowicz - [Misterekk](https://www.github.com/Misterekk)
-
