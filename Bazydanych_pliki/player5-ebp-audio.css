@@ -1,0 +1,261 @@
+
+/* line 22, ../../sass/player.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+div.promotion-book.promotion-audiobook > p.cover > a > img {
+    height: 145px;
+    width: 145px;
+}
+
+/*.cover.smallOkladka img {
+height: 145px !important;
+}
+
+.cover.smallOkladka img {
+    height: 217px !important;
+}
+
+.cover.bigOkladka {
+    height: 217px !important;
+}
+
+.cover.smallOkladka {
+    heigth: 145px !important;
+}
+
+.book-list-container .list .cover.smallOkladka {
+    height: 145px !important;
+}
+
+.book-list-container .list .cover.bigOkladka {
+    height: 169px !importnat;
+}*/
+
+/*.book-list-container .list .book-type {
+    margin: 62px 15px 8px !important;
+}*/
+/* line 28, ../../sass/player.scss */
+.jp-jplayer {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.pause-audio {
+   padding-right:30px;
+   display: inline-block;
+   height: 10px;
+   border-color: rgb(255, 255, 255);
+   border-style: double;
+   top: 17px;
+   position: relative;
+   margin-left: 10px;
+   width: 3px;
+   border-width: 0px 0px 0px 10px;
+   background: none;
+}
+
+/* line 33, ../../sass/player.scss */
+.jp-audio {
+  background-color: #0A3F5C;
+  width: 145px;
+  height: 45px;
+  z-index: 2;
+  float: left;
+  position: absolute;
+  top: 173px;
+  left: 35px;    
+}
+/* line 37, ../../sass/player.scss */
+.jp-audio:hover .jp-controls-holder .jp-play {
+  background-color: #85a2b1;
+}
+/* line 40, ../../sass/player.scss */
+.jp-audio:hover .jp-controls-holder .jp-stop {
+  background-color: #85a2b1;
+}
+/* line 43, ../../sass/player.scss */
+.jp-audio:hover .jp-controls-holder {
+  background-color: #85a2b1;
+}
+/* line 46, ../../sass/player.scss */
+.jp-audio:hover {
+  background-color: #85a2b1;
+}
+
+/* line 51, ../../sass/player.scss */
+.jp-controls-holder {
+  background-color: #0A3F5C;
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 62, ../../sass/player.scss */
+.jp-play, .jp-stop {
+  margin-right: 36px;
+  margin-top: 13px;
+  border: none;
+  background-color: #0A3F5C;
+  font-size: 14px;
+  font-family: museo_sans;
+  font-weight: 300;
+  color: #fff;
+}
+
+.jp-stop {
+    margin-right:0px;
+    left: -40px;
+}
+
+.jp-play-kamil, .jp-stop-kamil{
+  padding-right:20px;
+  position:relative;
+}
+.jp-play:after {
+  cursor: pointer;
+}
+#jp-controls-ebp .jp-play{
+  padding-right:20px;
+  position:relative;
+}
+#jp-controls-ebp .jp-stop{
+  padding-right:20px;
+  position:relative;
+}
+#jp-controls-ebp .jp-play:after{
+  content:" ";
+  border-top:6px solid transparent;
+  border-bottom:6px solid transparent;
+  border-left:10px solid #ffffff;
+  font-family:unset;
+  position:absolute;
+  right:3px;
+  top:2px;
+}
+#jp-controls-ebp .jp-stop:after{
+  background:#ffffff;
+  content:" ";
+  display:inline-block;
+  height:10px;
+  position:absolute;
+  right:5px;
+  top:4px;
+  width:10px;
+}
+.jp-play-kamil:after{
+  content:" ";
+  border-top:6px solid transparent;
+  border-bottom:6px solid transparent;
+  border-left:10px solid #ffffff;
+  position:absolute;
+  right:3px;
+  top:3px;
+}
+.jp-stop-kamil:after{
+  content:" ";
+  display:inline-block;
+  width:10px;
+  height:10px;
+  position:absolute;
+  right:5px;
+  top:4px;
+  background:#ffffff;
+}
+
+.link-do-pobierania {
+    position:relative;
+    left:104px;
+    top: -29px;
+}
+.link-do-pobierania img {
+    padding-left: 7px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-left: 2px solid #fff;
+}
+/* line 68, ../../sass/player.scss */
+.jp-play .fa, .jp-stop .fa {
+  color: #fff;
+}
+
+/* line 75, ../../sass/player.scss */
+
+
+/* line 80, ../../sass/player.scss */
+.jp-stop:after {
+  cursor: pointer;
+ /* content: "\00a0 Stop \00a0 \00a0 \00a0   \f04d";*/
+}
+
+/* line 85, ../../sass/player.scss */
+.jp-current-time {
+  margin-top: 12px;
+  font-size: 16px;
+  font-family: museo_sans;
+  font-weight: 700;
+  color: #fff;
+  display: none;
+}
+
+/*screens to 599px*/
+@media all and (max-width:599px) {
+.jp-audio {
+    z-index: 8;
+    position: relative;
+    top: 2px;
+    left: 8px;
+    float:left;
+    }
+
+
+.jp-audio.promocyjka {
+    z-index: 8;
+    position: relative;
+    top: 172px;
+    left: 1px;
+    float:left;
+    }
+
+
+}
+
+/*screens all from 600px to 700 */
+@media all and (max-width: 700px) and (min-width: 600px) {
+    .jp-audio{
+	z-index: 1;
+	float: left;
+	position:relative;
+	top: 6px;
+	left: 15px;
+    }
+.jp-audio.promocyjka {
+    z-index: 8;
+    position: relative;
+    top: 172px;
+    left: 1px;
+    float:left;
+    }
+
+}
+
+
+.book-type.book-type-points.mod {
+    margin-top: 75px;
+}
